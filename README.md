@@ -12,7 +12,7 @@ Pandas (optional): For advanced data handling (future extensions).<br>
 <br>
 <br>
 <br>
-Features:- 
+Features:- <br>
 Fetches weather data at intervals (e.g., every 5 minutes).<br>
 Aggregates daily weather data (average, max, min temperatures).<br>
 Alerts when user-defined thresholds (e.g., >35°C) are breached.<br>
