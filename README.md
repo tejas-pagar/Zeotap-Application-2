@@ -3,7 +3,7 @@ It monitors weather conditions in various cities and provides daily summaries, a
 <br>
 <br>
 <br>
-Tech Used :-<br>
+<b>Tech Used:-</b><br>
 Python <br>
 Requests: For making API requests to OpenWeatherMap.<br>
 Matplotlib: For generating visualizations.<br>
