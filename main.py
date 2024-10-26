@@ -7,7 +7,7 @@ import time
 import config
 
 def main():
-    create_table()  # Initialize the database tables
+    create_table()  
     daily_data = {}
 
     while True:
@@ -21,7 +21,8 @@ def main():
         for date, summary in daily_summary.items():
             insert_daily_summary(date, summary['avg_temp'], summary['max_temp'], summary['min_temp'], summary['dominant_condition'])
 
-        plot_daily_summary(daily_summary)
+        
+        plot_daily_summary(daily_summary, config.CITIES)
 
         time.sleep(config.RETRIEVAL_INTERVAL)
 
